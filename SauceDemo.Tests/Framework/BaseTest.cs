@@ -16,7 +16,7 @@ public abstract class BaseTest
     [SetUp]
     public void Start()
     {
-        directory = Path.Combine(TestContext.CurrentContext.WorkDirectory, "artifacts", TestContext.CurrentContext.Test.ID);
+        directory = Path.Combine(Environment.GetEnvironmentVariable("TEST_ARTIFACTS") ?? Path.Combine(TestContext.CurrentContext.WorkDirectory, "artifacts"), Guid.NewGuid().ToString("N"));
         Directory.CreateDirectory(directory);
         Log("START " + TestContext.CurrentContext.Test.Name);
         Config = Settings.Load();
@@ -24,8 +24,13 @@ public abstract class BaseTest
         if (Config.Headless) options.AddArgument("--headless=new");
         options.AddArguments("--window-size=1440,1000", "--no-sandbox", "--disable-dev-shm-usage");
         var binary = Environment.GetEnvironmentVariable("CHROME_BINARY");
+        if (Config.Browser == "coccoc" && string.IsNullOrWhiteSpace(binary))
+            binary = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), "CocCoc", "Browser", "Application", "browser.exe");
         if (!string.IsNullOrWhiteSpace(binary)) options.BinaryLocation = binary;
-        Driver = new ChromeDriver(options);
+        var driverDirectory = Environment.GetEnvironmentVariable("CHROMEDRIVER_DIRECTORY");
+        Driver = string.IsNullOrWhiteSpace(driverDirectory)
+            ? new ChromeDriver(options)
+            : new ChromeDriver(ChromeDriverService.CreateDefaultService(driverDirectory), options);
         Login = new LoginPage(Driver, Config.TimeoutSeconds);
         Login.Open(Config.BaseUrl);
     }

@@ -10,6 +10,9 @@ jobs:
   selenium:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      TEST_BROWSER: chrome
+      TEST_ARTIFACTS: ${{ github.workspace }}/TestResults/artifacts
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-dotnet@v4

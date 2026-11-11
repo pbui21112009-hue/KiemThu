@@ -8,8 +8,9 @@ public record Settings(string BaseUrl, string Browser, int TimeoutSeconds, bool 
     {
         var settings = JsonSerializer.Deserialize<Settings>(File.ReadAllText(Path.Combine(AppContext.BaseDirectory, "appsettings.json")))
             ?? throw new InvalidDataException("Missing settings");
-        if (!Uri.TryCreate(settings.BaseUrl, UriKind.Absolute, out var uri) || uri.Scheme != "https" || settings.TimeoutSeconds <= 0 || settings.Browser != "chrome")
-            throw new InvalidDataException("Expected HTTPS URL, positive timeout and chrome browser");
+        settings = settings with { Browser = Environment.GetEnvironmentVariable("TEST_BROWSER") ?? settings.Browser };
+        if (!Uri.TryCreate(settings.BaseUrl, UriKind.Absolute, out var uri) || uri.Scheme != "https" || settings.TimeoutSeconds <= 0 || settings.Browser is not ("chrome" or "coccoc"))
+            throw new InvalidDataException("Expected HTTPS URL, positive timeout and chrome/coccoc browser");
         return settings;
     }
 }
