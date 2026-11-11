@@ -34,6 +34,8 @@ Chi tiết prompt, đầu ra, bảng GIỮ/BỎ/SỬA, 3 ca bị loại và chec
 
 Nhánh feat/saucedemo-framework, Conventional Commits, PR #1 thật. Plugin GitHub trả 403 khi tạo PR; đã dùng GitHub API với credential Git sẵn có, không in/commit credential. Mô phỏng conflict trong repo biệt lập .artifacts/conflict: main đổi Timeout=15, feature đổi Timeout=20 từ Timeout=10; merge phát CONFLICT, đọc hai phía, chọn 20 theo yêu cầu feature rồi add/commit. Lịch sử và marker gốc ở evidence/conflict.txt; repo sản phẩm không bị thay đổi bởi mô phỏng.
 
+Bản clone sạch nhánh PR đã restore/build không cảnh báo và chạy Cốc Cốc đạt 10/10 (evidence/clean.trx). Merge theo yêu cầu người dùng với giới hạn CI billing được công khai; không đánh đồng local xanh với GitHub Actions xanh.
+
 ## Y9 - CI và điểm chặn
 
 Workflow tests.yml chạy push, PR vào main và workflow_dispatch, Ubuntu, .NET 10, Chrome headless, TRX và artifact luôn được upload nếu runner khởi động. GitHub từ chối khởi động runner vì billing account bị khóa. Thông báo thật: “The job was not started because your account is locked due to a billing issue.” Xem evidence/ci-billing.json và run https://github.com/phuongvhn2009/KiemThu/actions/runs/43004820116.

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="97be3b1d-6f2e-4d4a-b130-40ffab0c7bc5" name="ADMIN-PC@DESKTOP-DRNQBST 2026-11-11 17:42:14" runUser="DESKTOP-DRNQBST\CodexSandboxOffline" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-11T17:42:14.6778625+07:00" queuing="2026-11-11T17:42:14.6778629+07:00" start="2026-11-11T17:42:07.9658795+07:00" finish="2026-11-11T17:43:05.5763683+07:00" />
+  <TestSettings name="default" id="8e693aad-4c03-45bf-b5f4-8c5168a051f0">
+    <Deployment runDeploymentRoot="ADMIN-PC_DESKTOP-DRNQBST_2026-11-11_17_42_14" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e1c52d55-36e1-477a-82ae-0c23812b8fbc" testId="0f5a6e1c-c5ce-2587-d2f5-40f8475dcd6b" testName="PageTitle" computerName="DESKTOP-DRNQBST" duration="00:00:05.1621970" startTime="2026-11-11T17:43:00.3536469+07:00" endTime="2026-11-11T17:43:05.5158426+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1c52d55-36e1-477a-82ae-0c23812b8fbc" />
+    <UnitTestResult executionId="14b5b324-788c-409d-9db2-528bc487d56b" testId="f13c7b49-896d-43fa-5e47-c7555e08d3a5" testName="Login_both-empty" computerName="DESKTOP-DRNQBST" duration="00:00:06.8868880" startTime="2026-11-11T17:42:49.1395819+07:00" endTime="2026-11-11T17:42:56.0264690+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14b5b324-788c-409d-9db2-528bc487d56b" />
+    <UnitTestResult executionId="87f4f5f5-ece6-424d-a5ec-1d91073703df" testId="f61bce69-2ddf-35bc-21c3-6f65a8dfff27" testName="Login_empty-password" computerName="DESKTOP-DRNQBST" duration="00:00:07.7133730" startTime="2026-11-11T17:42:41.4261066+07:00" endTime="2026-11-11T17:42:49.1394794+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87f4f5f5-ece6-424d-a5ec-1d91073703df" />
+    <UnitTestResult executionId="3ea960ae-efa0-4841-93ee-09272721f2f3" testId="3793f117-b6dd-7027-3e85-835f05c94f7e" testName="Login_valid" computerName="DESKTOP-DRNQBST" duration="00:00:04.9177750" startTime="2026-11-11T17:42:09.7152148+07:00" endTime="2026-11-11T17:42:14.6328576+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ea960ae-efa0-4841-93ee-09272721f2f3" />
+    <UnitTestResult executionId="73e84d17-f78b-4d66-8373-2cbe241cf22c" testId="08e168e5-b286-c109-8173-e710a9a6f7fa" testName="Login_slow" computerName="DESKTOP-DRNQBST" duration="00:00:08.6309300" startTime="2026-11-11T17:42:14.6355884+07:00" endTime="2026-11-11T17:42:23.2665194+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73e84d17-f78b-4d66-8373-2cbe241cf22c" />
+    <UnitTestResult executionId="715aec03-3d88-46cc-b08e-eeea884e31f0" testId="df448686-99a8-4c49-e9c5-9ca72f9b2a05" testName="Login_locked" computerName="DESKTOP-DRNQBST" duration="00:00:11.4503960" startTime="2026-11-11T17:42:23.2665669+07:00" endTime="2026-11-11T17:42:34.7169615+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="715aec03-3d88-46cc-b08e-eeea884e31f0" />
+    <UnitTestResult executionId="cf6ab7e7-58a3-42ed-8d53-73f8a1c50011" testId="c284ffcd-37f0-066c-ed2a-4484f652c78c" testName="AddBackpack" computerName="DESKTOP-DRNQBST" duration="00:00:07.8328850" startTime="2026-11-11T17:42:09.7151228+07:00" endTime="2026-11-11T17:42:17.5480067+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf6ab7e7-58a3-42ed-8d53-73f8a1c50011" />
+    <UnitTestResult executionId="629c99c0-7382-4268-9734-c62e6332092e" testId="6ae2767a-b55f-3a29-b58d-b5fad78ce241" testName="Login_wrong-password" computerName="DESKTOP-DRNQBST" duration="00:00:04.3777680" startTime="2026-11-11T17:42:34.7170609+07:00" endTime="2026-11-11T17:42:39.0948286+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="629c99c0-7382-4268-9734-c62e6332092e" />
+    <UnitTestResult executionId="37763978-3ccb-48da-8d66-f96512ee3250" testId="d1e0aced-82a8-e6a1-5175-a41b3b31c5dc" testName="Login_unknown-user" computerName="DESKTOP-DRNQBST" duration="00:00:04.3267749" startTime="2026-11-11T17:42:56.0265248+07:00" endTime="2026-11-11T17:43:00.3532983+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37763978-3ccb-48da-8d66-f96512ee3250" />
+    <UnitTestResult executionId="f33c4f45-ccfb-4654-a727-659e9d008c50" testId="efc04750-fc22-3896-c91b-2faed696ceed" testName="Login_empty-user" computerName="DESKTOP-DRNQBST" duration="00:00:02.3311720" startTime="2026-11-11T17:42:39.0948643+07:00" endTime="2026-11-11T17:42:41.4260353+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f33c4f45-ccfb-4654-a727-659e9d008c50" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Login_empty-user" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="efc04750-fc22-3896-c91b-2faed696ceed">
+      <Execution id="f33c4f45-ccfb-4654-a727-659e9d008c50" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.LoginTests" name="Login_empty-user" />
+    </UnitTest>
+    <UnitTest name="PageTitle" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="0f5a6e1c-c5ce-2587-d2f5-40f8475dcd6b">
+      <Execution id="e1c52d55-36e1-477a-82ae-0c23812b8fbc" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.LoginTests" name="PageTitle" />
+    </UnitTest>
+    <UnitTest name="Login_empty-password" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="f61bce69-2ddf-35bc-21c3-6f65a8dfff27">
+      <Execution id="87f4f5f5-ece6-424d-a5ec-1d91073703df" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.LoginTests" name="Login_empty-password" />
+    </UnitTest>
+    <UnitTest name="Login_unknown-user" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="d1e0aced-82a8-e6a1-5175-a41b3b31c5dc">
+      <Execution id="37763978-3ccb-48da-8d66-f96512ee3250" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.LoginTests" name="Login_unknown-user" />
+    </UnitTest>
+    <UnitTest name="Login_valid" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="3793f117-b6dd-7027-3e85-835f05c94f7e">
+      <Execution id="3ea960ae-efa0-4841-93ee-09272721f2f3" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.LoginTests" name="Login_valid" />
+    </UnitTest>
+    <UnitTest name="Login_both-empty" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="f13c7b49-896d-43fa-5e47-c7555e08d3a5">
+      <Execution id="14b5b324-788c-409d-9db2-528bc487d56b" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.LoginTests" name="Login_both-empty" />
+    </UnitTest>
+    <UnitTest name="Login_slow" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="08e168e5-b286-c109-8173-e710a9a6f7fa">
+      <Execution id="73e84d17-f78b-4d66-8373-2cbe241cf22c" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.LoginTests" name="Login_slow" />
+    </UnitTest>
+    <UnitTest name="Login_wrong-password" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="6ae2767a-b55f-3a29-b58d-b5fad78ce241">
+      <Execution id="629c99c0-7382-4268-9734-c62e6332092e" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.LoginTests" name="Login_wrong-password" />
+    </UnitTest>
+    <UnitTest name="Login_locked" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="df448686-99a8-4c49-e9c5-9ca72f9b2a05">
+      <Execution id="715aec03-3d88-46cc-b08e-eeea884e31f0" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.LoginTests" name="Login_locked" />
+    </UnitTest>
+    <UnitTest name="AddBackpack" storage="d:\kiemthu\.artifacts\clean\saucedemo.tests\bin\debug\net10.0\saucedemo.tests.dll" id="c284ffcd-37f0-066c-ed2a-4484f652c78c">
+      <Execution id="cf6ab7e7-58a3-42ed-8d53-73f8a1c50011" />
+      <TestMethod codeBase="D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.Tests.Tests.CartTests" name="AddBackpack" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0f5a6e1c-c5ce-2587-d2f5-40f8475dcd6b" executionId="e1c52d55-36e1-477a-82ae-0c23812b8fbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f13c7b49-896d-43fa-5e47-c7555e08d3a5" executionId="14b5b324-788c-409d-9db2-528bc487d56b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f61bce69-2ddf-35bc-21c3-6f65a8dfff27" executionId="87f4f5f5-ece6-424d-a5ec-1d91073703df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3793f117-b6dd-7027-3e85-835f05c94f7e" executionId="3ea960ae-efa0-4841-93ee-09272721f2f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08e168e5-b286-c109-8173-e710a9a6f7fa" executionId="73e84d17-f78b-4d66-8373-2cbe241cf22c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df448686-99a8-4c49-e9c5-9ca72f9b2a05" executionId="715aec03-3d88-46cc-b08e-eeea884e31f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c284ffcd-37f0-066c-ed2a-4484f652c78c" executionId="cf6ab7e7-58a3-42ed-8d53-73f8a1c50011" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ae2767a-b55f-3a29-b58d-b5fad78ce241" executionId="629c99c0-7382-4268-9734-c62e6332092e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1e0aced-82a8-e6a1-5175-a41b3b31c5dc" executionId="37763978-3ccb-48da-8d66-f96512ee3250" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efc04750-fc22-3896-c91b-2faed696ceed" executionId="f33c4f45-ccfb-4654-a727-659e9d008c50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.0.0.0: Test execution started&#xD;
+Running all tests in D:\KiemThu\.artifacts\clean\SauceDemo.Tests\bin\Debug\net10.0\SauceDemo.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 10 of 10 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+2026-11-11T10:42:09.7217072Z START AddBackpack&#xD;
+2026-11-11T10:42:09.7217073Z START Login_valid&#xD;
+2026-11-11T10:42:13.8968872Z Login case: valid&#xD;
+2026-11-11T10:42:14.2469969Z END Passed &#xD;
+2026-11-11T10:42:14.6370121Z START Login_slow&#xD;
+2026-11-11T10:42:17.1851709Z END Passed &#xD;
+2026-11-11T10:42:17.6465775Z Login case: slow&#xD;
+2026-11-11T10:42:22.9555333Z END Passed &#xD;
+2026-11-11T10:42:23.2673057Z START Login_locked&#xD;
+2026-11-11T10:42:34.2521106Z Login case: locked&#xD;
+2026-11-11T10:42:34.4679382Z END Passed &#xD;
+2026-11-11T10:42:34.7179576Z START Login_wrong-password&#xD;
+2026-11-11T10:42:38.6715515Z Login case: wrong-password&#xD;
+2026-11-11T10:42:38.8833432Z END Passed &#xD;
+2026-11-11T10:42:39.0950931Z START Login_empty-user&#xD;
+2026-11-11T10:42:41.0259457Z Login case: empty-user&#xD;
+2026-11-11T10:42:41.2041918Z END Passed &#xD;
+2026-11-11T10:42:41.4270286Z START Login_empty-password&#xD;
+2026-11-11T10:42:48.7065788Z Login case: empty-password&#xD;
+2026-11-11T10:42:48.9016612Z END Passed &#xD;
+2026-11-11T10:42:49.1403466Z START Login_both-empty&#xD;
+2026-11-11T10:42:55.4865982Z Login case: both-empty&#xD;
+2026-11-11T10:42:55.7705457Z END Passed &#xD;
+2026-11-11T10:42:56.0271475Z START Login_unknown-user&#xD;
+2026-11-11T10:42:59.7008178Z Login case: unknown-user&#xD;
+2026-11-11T10:43:00.0434970Z END Passed &#xD;
+2026-11-11T10:43:00.3544107Z START PageTitle&#xD;
+2026-11-11T10:43:05.2805417Z END Passed &#xD;
+NUnit Adapter 5.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
