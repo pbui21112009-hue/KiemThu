@@ -17,7 +17,7 @@ public class LoginTests : BaseTest
             .Select(c => new TestCaseData(c).SetName("Login_" + c.Id));
 
     [Test]
-    public void PageTitle() => Assert.That(Login.Title, Is.EqualTo("Swag Labs - CI failure demonstration"));
+    public void PageTitle() => Assert.That(Login.Title, Is.EqualTo("Swag Labs"));
 
     [TestCaseSource(nameof(Cases))]
     public void Authenticate(LoginCase data)
